@@ -6,7 +6,6 @@ function HomePage() {
   console.log(getAllEvents);
   return (
     <div>
-    
       <EventList items={getAllEvents} />
     </div>
   );

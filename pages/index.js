@@ -6,10 +6,13 @@ function HomePage() {
   console.log(getAllEvents);
   return (
     <div>
-    
       <EventList items={getAllEvents} />
     </div>
   );
 }
-
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}
 export default HomePage;
